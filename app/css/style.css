@@ -1027,3 +1027,15 @@ form p {
 .works {
   padding-top: 75px;
 }
+
+/* ------------------------ Featured In Footer ------------------------ */
+.featuredText {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  background-color: #7e1800;
+  padding: 10px 25px;
+}
+.featuredImg {
+  padding-right: 15px;
+}
