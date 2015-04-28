@@ -1030,20 +1030,26 @@ form p {
   padding-top: 75px;
 }
 
-
+/* ------------------------ featured in footer ------------------------ */
 .featuredText {
   font-size: 30px;
   line-height: 30px;
   font-weight: 700;
   background-color: #7e1800;
   padding: 10px 25px;
+  margin-bottom: 20px;
 }
 .featuredImg {
   padding-right: 15px;
+  margin-top: 20px;
 }
 
 /* ------------------------ Make full width ------------------------ */
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.home-ad-div {
+  margin-bottom: 40px;
 }
