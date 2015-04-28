@@ -1,61 +1,59 @@
 <!DOCTYPE html>
-
 <html ng-app="fanbox">
 
-<head>
+  <head>
+    <title>Fanbox - For the Ultimate Fan</title>
+    <link rel="stylesheet" href="app/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app/css/style.css">
+    <link rel="stylesheet" href="app/css/icons.css">
+    <link rel="stylesheet" href="app/css/blue.css" class="colors">
+  </head>
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/icons.css">
-  <link rel="stylesheet" href="css/blue.css" class="colors">
+  <body>
 
-  <script src="js/angular.min.js"></script>
-  <script src="js/angular-route.min.js"></script>
-  <script src="app.js"></script>
-</head>
-
-<!-- define angular controller -->
-<body ng-controller="mainController">
-
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">Fanbox - For the Ultimate Fan</a>
-      </div>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"> Home</a></li>
-        <li><a href="#work"> How it Works</a></li>
-        <li><a href="#order"> Order</a></li>
-        <li><a href="#contact"> Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid">
-  
-    <!-- angular templating -->
-		<!-- this is where content will be injected -->
-    <div ng-view></div>
-    
-  </div>
-  
-  <footer id="main-footer" class="dark-bg light-typo">
-    <div class="container">
-      <center>
-        <p>As Featured In</p>
-        <div>
-          <span class="btn btn-store">Inc Magazine</span>
-          <span class="btn btn-store">Tech Crunch</span>
-          <span class="btn btn-store">Entrepreneur</span>
-          <span class="btn btn-store">Sports Illustrated</span>
-          <span class="btn btn-store">Forbes</span>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Fanbox - For the Ultimate Fan</a>
         </div>
-      </center>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#/"> Home</a></li>
+          <li><a href="#work"> How it Works</a></li>
+          <li><a href="#order"> Order</a></li>
+          <li><a href="#contact"> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div ng-view></div>
     </div>
-  </footer>
-  
-</body>
+    
+    <footer id="main-footer" class="dark-bg light-typo">
+      <div class="container">
+        <center>
+          <p>As Featured In</p>
+          <div>
+            <span class="btn btn-store">Inc Magazine</span>
+            <span class="btn btn-store">Tech Crunch</span>
+            <span class="btn btn-store">Entrepreneur</span>
+            <span class="btn btn-store">Sports Illustrated</span>
+            <span class="btn btn-store">Forbes</span>
+          </div>
+        </center>
+      </div>
+    </footer>
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.js"></script> -->
+    <script src="app/js/angular.min.js"></script>
+    <script src="app/js/angular-route.min.js"></script>
+    <script src="app/main/main.js"></script>
+    <script src="app/work/work.js"></script>
+    <script src="app/order/order.js"></script>
+    <script src="app/contact/contact.js"></script>
+    <script src="app/app.js"></script>
+  </body>
 
 </html>

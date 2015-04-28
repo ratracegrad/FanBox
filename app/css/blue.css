@@ -1,0 +1,67 @@
+/* 2DAFF0 * 0F91D2 */
+
+.product-info div h4,
+#sdbr-title ,
+#project-modal .close:hover,
+.dark-bg a,
+.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus, 
+.navbar-inverse .navbar-nav>li>a.active,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-header,
+#style-switcher h2,
+#style-switcher h2 a {
+  color: #2DAFF0;
+}
+
+.slides-navigation a.next:hover,
+.slides-navigation a.prev:hover,
+.social-links li a:hover {
+  background-color: #2DAFF0;
+  border-color: #2DAFF0;
+}
+
+.btn-store,
+.slides-pagination a.current,
+.carousel-indicators li.active ,
+.hover-mask2,
+.color-bg,
+.dropdown-toggle,
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus,
+.social-profiles li a:hover,
+.btn-store.outline:hover,
+.btn-store.outline:focus,
+.btn-store.outline:active  {
+  background-color: #2DAFF0;
+}
+
+.btn-store:hover,
+.btn-store:focus,
+.btn-store:active {
+  background-color: #0F91D2;
+}
+
+.btn-store.outline  {
+  color:#2DAFF0;
+  border-color: #2DAFF0;
+}
+
+#contact-form .form-control:focus, 
+#order-form .form-control:focus,
+.input-group .form-control:focus {
+  border:2px solid #2DAFF0;
+}
+
+.social-profiles li a {
+  border:2px solid #2DAFF0;
+  color:#2DAFF0;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}

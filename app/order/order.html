@@ -1,0 +1,181 @@
+<div>
+
+  <section id="orderform" class="gray-bg padding-top-bottom" ng-controller="OrderCtrl">
+      <div class="container">
+        <header class="section-header text-center">
+          <h2>Order Form</h2>
+        </header>
+        <form action="index.html" method="post" novalidate id="order-form">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+            <table class="table">
+              <thead>
+              <tr>
+                <th>Select Team</th>
+                <th>Box Cost</th>
+                <th class="text-center">
+                <span class="hidden-xs">Quantity</span>
+                <span class="visible-xs">QNT</span>
+                </th>
+                <th class="text-right">Total</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="vert-align">Georgia</td>
+                <td class="vert-align">{{ 47 | currency:"$":0 }}</td>
+                <td class="text-center">
+                <select class="form-control form-control-inline" ng-model="georgia" ng-options="qty as qty.label for qty in quantity"></select>
+                </td>
+                <td class="text-right vert-align">{{ georgia.value * 47 | currency:"$":0  }}</td>
+              </tr>             
+              <tr>
+                <td class="vert-align">Alabama</td>
+                <td class="vert-align">{{ 47 | currency:"$":0  }}</td>
+                <td class="text-center">
+                <select class="form-control form-control-inline" ng-model="alabama" ng-options="qty as qty.label for qty in quantity"></select>
+                </td>
+                <td class="text-right vert-align">{{ alabama.value * 47 | currency:"$":0  }}</td>
+              </tr>             
+              <tr>
+                <td class="vert-align">Furman</td>
+                <td class="vert-align">{{ 47 | currency:"$":0  }}</td>
+                <td class="text-center">
+                <select class="form-control form-control-inline" ng-model="furman" ng-options="qty as qty.label for qty in quantity"></select>
+                </td>
+                <td class="text-right vert-align">{{ furman.value * 47 | currency:"$":0  }}</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              </tbody>
+            </table>
+            </div>  
+
+          <div class="col-sm-6 col-md-6 contact-info">
+            <p class="text-center"><strong>Payment Method</strong></p>
+            <div class="row">
+              <div class="col-sm-8 col-md-8">
+                <div class="form-group">
+                  <label class="control-label">Name</label>
+                  <input name="Card number" placeholder="Card number" class="form-control input-lg" type="text">
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <div class="form-group">
+                  <label class="control-label">Code</label>
+                  <input name="Code" placeholder="Code" class="form-control input-lg" type="text" >
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-6">
+                <div class="form-group">
+                  <label class="control-label" for="contact-mail">month</label>
+                  <div class=" controls">
+                    <select class="form-control">
+                      <option>January</option>
+                      <option>February</option>
+                      <option>March</option>
+                    </select>
+                  </div>
+                </div>  
+              </div>  
+              <div class="col-sm-6 col-md-6">
+                <div class="form-group">
+                  <label class="control-label" for="contact-mail">year</label>
+                  <div class=" controls">
+                    <select class="form-control">
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                    </select>
+                  </div>
+                </div>  
+              </div>  
+            </div>  
+
+            <p class="text-center"><strong>Information</strong></p>
+            <div class="row">
+              <div class="col-sm-6 col-md-6">
+                <div class="form-group">
+                  <label class="control-label">Name</label>
+                  <input name="First name" placeholder="First name" class="form-control input-lg" type="text">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6">
+                <div class="form-group">
+                  <label class="control-label">Last Name</label>
+                  <input name="Last name" placeholder="Last name" class="form-control input-lg" type="text" >
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label" >Email</label>
+              <input name="email" placeholder="Your email" class="form-control input-lg" type="email">
+            </div>  
+            <!-- <p class="text-center"><strong>If you have Coupon code</strong></p>
+            <div class="input-group ">
+              <input placeholder="Coupon code" class="form-control input-lg" type="text" >
+              <span class="input-group-btn">
+                <button name="submit" type="submit" class="btn btn-store">Check!</button>
+              </span>
+            </div> -->
+
+          </div>
+          
+          <div class="col-sm-6 col-md-6">
+            <p class="text-center"><strong>Delivery address</strong></p>
+            <div class="form-group">
+              <label class="control-label">Street</label>
+              <input name="street" placeholder="Street address" class="form-control" type="text">
+            </div>  
+            <div class="form-group">
+              <label class="control-label">City</label>
+              <input name="city" placeholder="City" class="form-control" type="text">
+            </div>  
+            <div class="form-group">
+              <label class="control-label">Country</label>
+              <input name="Country" placeholder="Country" class="form-control" type="text">
+            </div>              
+            <div class="form-group">
+              <label class="control-label">postcode</label>
+              <input name="postcode" placeholder="Post code" class="form-control" type="text">
+            </div>          
+
+            <table class="table">
+              <thead>
+              <tr>
+                <th colspan="3" class="text-center">Order sumary</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Shipping cost:</td>
+                <td></td>
+                <td class="text-right">Free</td>
+              </tr>
+              <tr>
+                <td>Total:</td>
+                <td></td>
+                <td id="total" class="text-right">{{ (georgia.value * 47) +  (alabama.value * 47) + (furman.value * 47) | currency }}</td>
+              </tr>
+              </tbody>
+            </table>
+            <p>
+              <button name="submit" type="submit" class="btn btn-store btn-block">Order Product</button>
+            </p>
+            <input type="hidden" name="submitted" id="submitted" value="true">
+          </div>
+
+        </div>
+          </form>
+
+      </div>
+    </section>
+</div>
