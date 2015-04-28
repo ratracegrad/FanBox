@@ -1,7 +1,7 @@
-var fanboxApp = angular.module('fanbox', ['ngRoute']);
+angular.module('fanbox', ['ngRoute'])
 
 // configure our routes
-fanboxApp.config(function($routeProvider) {
+.config(function($routeProvider) {
 	$routeProvider
 
 		// route for the home page
@@ -27,19 +27,19 @@ fanboxApp.config(function($routeProvider) {
 			templateUrl : 'pages/contact.html',
 			controller  : 'contactController'
 		});
-});
+})
 
 // create the controller and inject Angular's $scope
-fanboxApp.controller('mainController', function($scope) {
+.controller('mainController', function($scope) {
 	// create a message to display in our view
 	$scope.message = 'Look! Main Page';
-});
+})
 
-fanboxApp.controller('workController', function($scope) {
+.controller('workController', function($scope) {
 	$scope.message = 'Look! How it works page.';
-});
+})
 
-fanboxApp.controller('orderController', function($scope) {
+.controller('orderController', function($scope) {
 	$scope.message = 'Look! Order page.';
 
 	$scope.quantity = [
@@ -51,8 +51,8 @@ fanboxApp.controller('orderController', function($scope) {
   $scope.georgia = $scope.quantity[0];
   $scope.alabama = $scope.quantity[0];
   $scope.furman = $scope.quantity[0];
-});
+})
 
-fanboxApp.controller('contactController', function($scope) {
+.controller('contactController', function($scope) {
 	$scope.message = 'Look! Contact page';
 });
