@@ -92,7 +92,7 @@ h3.center {
 /* ------------------------ section ------------------------ */
 
 .section-header h2 {
-  margin-top: 40px;
+/*  margin-top: 40px;*/
   margin-bottom: 3px;
   font-weight: 600;
 }
@@ -1062,6 +1062,7 @@ form p {
 
 .gray-back {
   background-color: rgb(237, 237, 237); 
+  padding-bottom: 40px;
 }
 
 .header-text {
@@ -1077,4 +1078,16 @@ form p {
   box-sizing: border-box;
   padding-bottom: 40px;
   text-align: center;
+}
+
+.ad-div h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14pt;
+  display: block !important;
+  text-align: center;
+}
+
+.ng-scope {
+  margin-top: 31px;
 }
