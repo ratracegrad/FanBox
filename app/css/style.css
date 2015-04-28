@@ -45,7 +45,7 @@ h3.center {
   background-color: #f2f2f2;
 }
 .color-bg{
-  background-color:#23A657;
+  background-color:#731800;
 }
 .dark-bg {
   background-color: #323A42;
@@ -92,7 +92,7 @@ h3.center {
 /* ------------------------ section ------------------------ */
 
 .section-header h2 {
-  margin-top: 0;
+  margin-top: 40px;
   margin-bottom: 3px;
   font-weight: 600;
 }
@@ -174,12 +174,14 @@ footer {
 .navbar-inverse .navbar-brand {
   color: #FFF;
   line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
 }
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #23A657;
+  color: #7e1800;
   background-color: transparent;
 }
 
@@ -190,7 +192,7 @@ footer {
 .navbar-inverse .navbar-nav>li>a.active,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
-  color: #23A657;
+  color: #7e1800;
   background-color: transparent;
 }
 
@@ -259,7 +261,7 @@ footer {
   font-weight: 300;
   outline: none;
   position: relative;
-  background: #23A657;
+  background: #7e1800;
   color: #fff;
   border-radius: 5px;
   -webkit-transition:all .3s ease-out;
@@ -272,7 +274,7 @@ footer {
   color: #fff;
   top: 0;
   text-decoration: none;
-  background-color: #15C56A;
+  background-color: #450713;
   box-shadow: none;
 }
 .btn-store.outline {
@@ -1028,7 +1030,7 @@ form p {
   padding-top: 75px;
 }
 
-/* ------------------------ Featured In Footer ------------------------ */
+
 .featuredText {
   font-size: 30px;
   line-height: 30px;
@@ -1038,4 +1040,10 @@ form p {
 }
 .featuredImg {
   padding-right: 15px;
+}
+
+/* ------------------------ Make full width ------------------------ */
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
 }
