@@ -51,3 +51,6 @@ Open your browser to http:localhost:3000
 
 # Demonstration
 [You can view this app in production here](https://jb-fanbox.herokuapp.com)
+
+# Screenshot
+![alt tag](http://www.jenniferbland.com/images/fan-box.png)
