@@ -1,0 +1,10 @@
+{
+  "name": "fanbox",
+  "version": "0.0.1",
+  "main": "server.js",
+  "author": "Jennifer Bland",
+  "license": "Copyright 2015, Jennifer Bland. All rights reserved.",
+  "devDependencies": {
+    "request": "^2.34.0",
+  }
+}
