@@ -1,10 +1,20 @@
 {
   "name": "fanbox",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "description": "Fan Box - For The Ultimate Fan",
   "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ratracegrad/2015-03-solo.git"
+  },
   "author": "Jennifer Bland",
-  "license": "Copyright 2015, Jennifer Bland. All rights reserved.",
-  "devDependencies": {
-    "request": "^2.34.0",
-  }
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratracegrad/2015-03-solo/issues"
+  },
+  "homepage": "https://github.com/ratracegrad/2015-03-solo"
 }
