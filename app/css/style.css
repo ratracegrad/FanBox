@@ -791,7 +791,7 @@ address {
   height: 44px;
   font-size:18px;
   line-height:32px;
-  color:#aaa;
+  color:#000;
   font-weight:400;
   vertical-align:top;
   border:2px solid #FFF;
@@ -849,7 +849,7 @@ address {
 #order-form .form-control:focus, 
 .input-group .form-control:focus {
   outline:none;
-  border: 2px solid #23A657;
+  border: 2px solid #7e1800;
 }
 #order-form .inputError,
 #order-form textarea.form-control.inputError,
@@ -1030,6 +1030,7 @@ form p {
   padding-top: 75px;
 }
 
+@media
 /* ------------------------ featured in footer ------------------------ */
 .featuredText {
   font-size: 30px;
@@ -1051,5 +1052,29 @@ form p {
 }
 
 .home-ad-div {
-  margin-bottom: 40px;
+  margin: 40px;
+}
+
+/* ------------------------ how it works ------------------------ */
+.no-margin {
+  margin: 0; 
+}
+
+.gray-back {
+  background-color: rgb(237, 237, 237); 
+}
+
+.header-text {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.ad-div {
+  float: left;
+  height: 100%;
+  position: relative;
+  display: block !important;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  text-align: center;
 }

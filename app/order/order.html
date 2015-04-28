@@ -22,28 +22,34 @@
               </thead>
               <tbody>
               <tr>
-                <td class="vert-align">Georgia</td>
-                <td class="vert-align">{{ 47 | currency:"$":0 }}</td>
-                <td class="text-center">
-                <select class="form-control form-control-inline" ng-model="georgia" ng-options="qty as qty.label for qty in quantity"></select>
+                <td>
+                <select class="form-control form-control-inline" ng-model="team1" ng-options="team as team.name for team in teamList"></select>
                 </td>
-                <td class="text-right vert-align">{{ georgia.value * 47 | currency:"$":0  }}</td>
+                <td class="vert-align">{{ team1.price | currency:"$":0 }}</td>
+                <td class="text-center">
+                <select class="form-control form-control-inline" ng-model="qty1" ng-options="qty as qty.label for qty in quantity"></select>
+                </td>
+                <td class="text-right vert-align">{{ qty1.value * team1.price | currency:"$":0  }}</td>
               </tr>             
               <tr>
-                <td class="vert-align">Alabama</td>
-                <td class="vert-align">{{ 47 | currency:"$":0  }}</td>
-                <td class="text-center">
-                <select class="form-control form-control-inline" ng-model="alabama" ng-options="qty as qty.label for qty in quantity"></select>
+                <td>
+                <select class="form-control form-control-inline" ng-model="team2" ng-options="team as team.name for team in teamList"></select>
                 </td>
-                <td class="text-right vert-align">{{ alabama.value * 47 | currency:"$":0  }}</td>
+                <td class="vert-align">{{ team2.price | currency:"$":0 }}</td>
+                <td class="text-center">
+                <select class="form-control form-control-inline" ng-model="qty2" ng-options="qty as qty.label for qty in quantity"></select>
+                </td>
+                <td class="text-right vert-align">{{ qty2.value * team2.price | currency:"$":0  }}</td>
               </tr>             
               <tr>
-                <td class="vert-align">Furman</td>
-                <td class="vert-align">{{ 47 | currency:"$":0  }}</td>
-                <td class="text-center">
-                <select class="form-control form-control-inline" ng-model="furman" ng-options="qty as qty.label for qty in quantity"></select>
+                <td>
+                <select class="form-control form-control-inline" ng-model="team3" ng-options="team as team.name for team in teamList"></select>
                 </td>
-                <td class="text-right vert-align">{{ furman.value * 47 | currency:"$":0  }}</td>
+                <td class="vert-align">{{ team3.price | currency:"$":0 }}</td>
+                <td class="text-center">
+                <select class="form-control form-control-inline" ng-model="qty3" ng-options="qty as qty.label for qty in quantity"></select>
+                </td>
+                <td class="text-right vert-align">{{ qty3.value * team3.price | currency:"$":0  }}</td>
               </tr>
               <tr>
                 <td></td>
@@ -163,7 +169,7 @@
               <tr>
                 <td>Total:</td>
                 <td></td>
-                <td id="total" class="text-right">{{ (georgia.value * 47) +  (alabama.value * 47) + (furman.value * 47) | currency }}</td>
+                <td id="total" class="text-right">{{ (qty1.value * team1.price) +  (qty2.value * team2.price) + (qty3.value * team3.price) | currency }}</td>
               </tr>
               </tbody>
             </table>

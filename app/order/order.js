@@ -15,6 +15,12 @@ angular.module('fanbox.order', ['ngRoute'])
     { label: '3', value: 3 }
   ];
 
+  $scope.teamList = [
+    { name: 'Georgia', price: 97 },
+    { name: 'Alabama', price: 67 },
+    { name: 'Furman', price: 47 }
+  ];
+
   $scope.georgia = $scope.quantity[0];
   $scope.alabama = $scope.quantity[0];
   $scope.furman = $scope.quantity[0];
