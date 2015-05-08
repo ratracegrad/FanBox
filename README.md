@@ -39,7 +39,7 @@ On the front end Fan Box incorporates the Bootstrap framework to provide a mobil
 # Installation
 To use this repo, clone it to your computer. Run `npm install` to install all required dependencies. 
 
-Start the server using node server.js or nodemon server.js.
+Start the server using `node server.js` or `nodemon server.js`.
 
 Open your browser to http:localhost:3000
 
