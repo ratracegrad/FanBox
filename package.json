@@ -2,6 +2,7 @@
   "name": "fanbox",
   "version": "0.1.0",
   "description": "Fan Box - For The Ultimate Fan",
+  "author": "Jennifer Bland",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ratracegrad/2015-03-solo.git"
+    "url": "https://github.com/ratracegrad/Angular-Demo.git"
   },
-  "author": "Jennifer Bland",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ratracegrad/2015-03-solo/issues"
+    "url": "https://github.com/ratracegrad/Angular-Demo/issues"
   },
-  "homepage": "https://github.com/ratracegrad/2015-03-solo",
+  "homepage": "https://github.com/ratracegrad/Angular-Demo",
+  "keywords": [
+    "jennifer",
+    "bland",
+    "angular",
+    "nodejs",
+    "angular demo",
+    "express"
+  ],
   "dependencies": {
     "express": "^3.x.x",
     "nodemon": "^1.3.7"

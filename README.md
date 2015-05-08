@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fan Box - For the Ultimate Fan
 
 Fan Box is a monthly box that contains personalized sports memorabilia from your favorite pro or college team.
@@ -54,3 +55,7 @@ Open your browser to http:localhost:3000
 
 # Screenshot
 ![alt tag](http://www.jenniferbland.com/images/fan-box.png)
+=======
+# Angular-Demo
+Demonstration of Angular using multiple views and routes
+>>>>>>> 39cc5e79d576b296f27e6d98e3bd11d18b37c7b3
