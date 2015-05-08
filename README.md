@@ -25,7 +25,7 @@ Open your browser to http:localhost:3000
 3. AngularJS
 4. Twitter Bootstrap
 
-# Demonstration
+# Live Demonstration
 [You can view this app in production here](https://jb-fanbox.herokuapp.com)
 
 # Screenshot
