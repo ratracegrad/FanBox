@@ -7,14 +7,6 @@ It utilizes multiple views and routes to display the features on the website.
 
 > This is a great repo to use for learning how to use the many features found in AngularJS.
 
-## Table of Contents
-
-1. [Technology Stack](#technoloy stack)
-1. [Requirements](#requirements)
-1. [Installation](#installation)
-1. [Live Demonstration](#live demonstration)
-1. [Screenshots](#screenshots)
-
 ## Technology Stack
 1. NodeJS
 2. Express
