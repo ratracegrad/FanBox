@@ -7,28 +7,23 @@ I created Fax Box to demonstrate how you would use AngularJS in a corporate webs
 
 This is a great repo to use for learning how to use the many features found in AngularJS.
 
-## Technology
-Fan Box has been developed on leading edge technology. On the back end Fan Box utilizes an Express server which is a fast, minimalist web framework forNode.js. 
-
-On the front end Fan Box incorporates the Bootstrap framework to provide a mobile responsive website that works whether you are on your computer, tablet or mobile phone. It also uses the AngularJS Framework that was developed by Google.
-
-# Installation
+## Installation
 To use this repo, clone it to your computer. Run `npm install` to install all required dependencies. 
 
 Start the server using `node server.js` or `nodemon server.js`.
 
 Open your browser to http:localhost:3000
 
-# Technologies Used
+## Technology Stack
 1. NodeJS
 2. Express
 3. AngularJS
 4. Twitter Bootstrap
 
-# Live Demonstration
+## Live Demonstration
 [You can view this app in production here](https://jb-fanbox.herokuapp.com)
 
-# Screenshot
+## Screenshot
 Home page for Fan Box
 ![Fan Box](http://www.jenniferbland.com/images/fan-box.png)
 
