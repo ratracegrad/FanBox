@@ -30,13 +30,13 @@ Open your browser to http:localhost:3000
 
 # Screenshot
 Home page for Fan Box
-![alt tag](http://www.jenniferbland.com/images/fan-box.png)
+![Fan Box](http://www.jenniferbland.com/images/fan-box.png)
 
 How it Works page
-![alt tag](http://www.jenniferbland.com/images/screenshot-how-it-works.png)
+![Fan Box](http://www.jenniferbland.com/images/screenshot-how-it-works.png)
 
 Order Page
-![alt tag](http://www.jenniferbland.com/images/screenshot-order.png)
+![Fan Box](http://www.jenniferbland.com/images/screenshot-order.png)
 
 Contact Page
-![alt tag](http://www.jenniferbland.com/images/screenshot-contact.png)
+![Fan Box](http://www.jenniferbland.com/images/screenshot-contact.png)
