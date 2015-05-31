@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Fan Box - For the Ultimate Fan](#fan-box---for-the-ultimate-fan)
+  - [Technology Stack](#technology-stack)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Live Demonstration](#live-demonstration)
+  - [Screenshot](#screenshot)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Fan Box - For the Ultimate Fan
 
 > This is a demonstration of multiple features found in AngularJS. It is running on a NodeJS Express server.
