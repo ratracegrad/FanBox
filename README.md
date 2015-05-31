@@ -1,17 +1,31 @@
 # Fan Box - For the Ultimate Fan
 
-This is a demonstration of multiple features found in AngularJS. It is running on a NodeJS Express server.
+> This is a demonstration of multiple features found in AngularJS. It is running on a NodeJS Express server.
 It utilizes multiple views and routes to display the features on the website.
 
-I created Fax Box to demonstrate how you would use AngularJS in a corporate website or ecommerce environment.
+> I created Fax Box to demonstrate how you would use AngularJS in a corporate website or ecommerce environment.
 
-This is a great repo to use for learning how to use the many features found in AngularJS.
+> This is a great repo to use for learning how to use the many features found in AngularJS.
+
+## Table of Contents
+
+1. [Technology Stack](#technoloy stack)
+1. [Requirements](#requirements)
+1. [Installation](#installation)
+1. [Live Demonstration](#live demonstration)
+1. [Screenshots](#screenshots)
 
 ## Technology Stack
 1. NodeJS
 2. Express
 3. AngularJS
 4. Twitter Bootstrap
+
+## Requirements
+- Node
+- Express
+- Angular
+- Bootstrap
 
 ## Installation
 To use this repo, clone it to your computer. Run `npm install` to install all required dependencies. 
